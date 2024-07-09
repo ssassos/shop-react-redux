@@ -14,7 +14,7 @@ const NavBar = () => {
                     <div>
                         Корзина
                     </div>
-                    <div classNam e={classes.bag}>
+                    <div className={classes.bag}>
                         <span>2</span>
                     </div>
                 </div>

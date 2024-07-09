@@ -11,9 +11,11 @@ function App() {
             <NavBar/>
             <div className="container">
                 <Routes>
-                    <Route path="/" element={<Home/>}/>
-                    <Route path="/cart" element={<Cart/>}/>
-                    <Route path="/nofound" element={<NotFound/>}/>
+
+                    <Route path="/" exact element={<Home/>}/>
+                    <Route path="/cart" exact element={<Cart/>}/>
+                    <Route path="*" element={<NotFound/>}/>
+
                 </Routes>
             </div>
 
