@@ -10,8 +10,13 @@ const initialState = {
 export const productsFetch = createAsyncThunk(
     "products/productsFetch",
     async () => {
-        const response = await axios.get("http://localhost:4000/products")
-        return response?.data
+        try{
+            const response = await axios.get("http://localhost:4000/products")
+            return response.data
+        }catch(error){
+            console.log(error)
+        }
+
     }
 )
 
@@ -26,7 +31,6 @@ const productsSlice = createSlice({
             })
             .addCase(productsFetch.rejected, (state, action) => {
                 state.status = "rejected"
-                state.error = action.payload
             })
             .addCase(productsFetch.fulfilled, (state, action) => {
                 state.status = "success"

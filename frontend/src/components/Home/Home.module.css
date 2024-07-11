@@ -1,0 +1,14 @@
+.products{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    text-align: center;
+}
+.products img{
+    
+}
+.description{
+    display: grid;
+}
+.description_span{
+    max-width: 180px;
+}

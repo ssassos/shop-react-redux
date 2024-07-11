@@ -5,18 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c62fdc8d-12f1-4bf4-8d0a-f6ddccfd0299" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/backend/products/products.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/redux/prodictsApi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/redux/products.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/redux/cartSlice.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/Cart/Cart.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Cart/Cart.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/Cart/Cart.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Cart/Cart.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/components/Home/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Home/Home.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/Home/Home.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Home/Home.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/components/Navbar/NavBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Navbar/NavBar.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/redux/products.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/redux/products.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +50,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.tailwindcss&quot;,
     &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2024.1.5\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
@@ -73,6 +74,11 @@
       <workItem from="1720418111730" duration="35000" />
       <workItem from="1720524038756" duration="5604000" />
       <workItem from="1720533346217" duration="3764000" />
+      <workItem from="1720545484345" duration="494000" />
+      <workItem from="1720627039870" duration="3796000" />
+      <workItem from="1720684487238" duration="5403000" />
+      <workItem from="1720704282956" duration="300000" />
+      <workItem from="1720707709824" duration="8258000" />
     </task>
     <servers />
   </component>
